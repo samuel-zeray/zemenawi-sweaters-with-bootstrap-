@@ -1,0 +1,117 @@
+*{
+    font-family:'Times New Roman', Times, serif ;
+    margin: auto;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+#box{
+    width: 60vh;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    background-image: url("Sweater/background/download\ \(4\).jfif");
+}
+h1{
+    text-align: center;
+    margin-bottom: 45 px;
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.textbox{
+    border-bottom: 2px solid white;
+    position: relative;
+    margin: 35px 0;
+    padding-left: 0%;
+    background: transparent;
+}
+
+.textbox input{
+    background: none;
+    border: none;
+    outline: none;
+    width: 100%;
+    color: white;
+    height: 30px;
+    font-size: 20px;
+
+}
+.login{
+    height: 45px;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: rgb(109, 107, 102);
+    background-size: 200%;
+    transition: 0.5s;
+    color: orange;
+    font-size: 17px;
+    margin-top: 10px;
+}
+.login:hover{
+   background-position: right;
+   font-size: 20px; 
+
+}
+
+#RememberMe{
+    display: inline-block;
+    float: left;
+}
+#do-not{
+    display: inline-block;
+    float: left;
+}
+#forgot-password{
+    display: inline-block;
+    float: right;
+}
+#forgot-password:hover{
+    text-decoration: underline;
+}
+#password{
+ background-color: transparent;
+ border: none;
+ color: white;
+ margin-left: 0;
+ padding-left: 0;
+ 
+}
+#password::placeholder{
+color: white;
+
+}
+.signup{
+color: white;
+margin-top: 30px;
+margin-bottom: 5px;
+text-align: center;
+}
+.signup a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+ .signup #do-not:hover{
+    text-decoration: underline;
+}
+
+.signup a:hover{
+    color: blue;
+}
+footer{
+    float: inline-end;
+    width: 100%;
+                   }  
+#Copyright{
+    color: black;
+    float: inline-end;
+    font-weight: bold;
+          }

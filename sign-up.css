@@ -1,0 +1,111 @@
+
+.main-box{
+    width: 80%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+
+.register{
+    width: 50%;
+   background-image: url("Sweater/s-l300.webp");
+   background-repeat: no-repeat;
+   background-size: 100%;
+
+   border: none;
+    border-radius: 15px;
+    min-height: 90vh;
+    padding-left: 0;
+    display: inline-block;
+    color: orange;
+    font-size: 60px;
+    padding-left: 15%;
+    padding-top: 25%;
+}
+
+.create-account{
+    vertical-align: top;
+    border: none;
+    border-radius: 15px;
+    min-height: 100vh;
+    display: inline-block;
+    padding-left: 150px;
+}
+
+.create-account h1{
+    font-weight: bolder;
+    color:orange;
+    text-shadow: 1px 1px rgb(255, 145, 0);
+}
+.create-account #input{
+    border: none;
+    border-bottom: solid rgb(255, 208, 0);
+    padding: 10px;
+    padding-left: 0px;
+    width: 100%;
+    font-weight: bold;
+    font-size: large;
+    
+}
+#input::placeholder{
+    font-weight: bolder;
+    font-size: large;
+}
+.textbox{
+  display: inline-block;
+}
+.signup{
+    padding-left: 0px;
+    display: inline-block;
+    margin: 20px;
+}
+#reset{
+    margin-left: -20px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: larger;
+    background-color: orange;
+    color: white;
+}
+#reset:hover{
+    background-color: orange;
+    color: black;
+}
+#reset:active{
+    color: red;
+}
+button{
+margin-left: 100px;
+border: none;
+border-radius: 10px;
+font-size: larger;
+color: white;
+padding: 5px;
+background-color: orange;
+display: inline;
+}
+button:hover{
+    color: black;
+}
+button:active{
+    color: red;
+}
+footer{
+    float: inline-end;
+    width: 100%;
+                   }  
+  
+  footer #address{ 
+    color: black;
+    font-weight: bold;
+    }
+#Copyright{
+    color: black;
+    float: inline-end;
+    font-weight: bold;
+          }

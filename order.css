@@ -1,0 +1,105 @@
+
+.main-box{
+    width: 80%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255, .2);
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    margin-top: 80px;  
+}
+
+.image{
+    width: 50%;
+   background-image: url("Sweater/background/istockphoto-1408644616-170667a.webp");
+   background-repeat: repeat;
+   background-size: 100%;
+   border: none;
+    border-radius: 15px;
+    min-height: 120vh;
+    display: inline-block;
+    color: orange;
+    font-size: 60px; 
+}
+.image p{
+ margin:35%;  
+}
+
+.create-account{
+    vertical-align: top;
+    border: none;
+    border-radius: 15px;
+    display: inline-block;
+   
+}
+
+.create-account h1{
+    font-weight: bolder;
+    color:orange;
+    text-shadow: 1px 1px rgb(255, 145, 0);
+
+}
+
+    
+input::placeholder{
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 10px;
+}
+select{
+    border-radius: 10px;
+}
+input{
+    border-radius: 10px; 
+    padding: 3px; 
+}
+.signup{
+    margin: 20px;
+}
+#reset{
+    margin-left: -20px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: larger;
+    background-color: rgb(25, 0, 255);
+    color: white;
+    display: block;
+}
+#reset:hover{
+    background-color: orange;
+    color: black;
+}
+#reset:active{
+    color: red;
+}
+button{
+margin-left: -20px;
+border: none;
+border-radius: 10px;
+font-size: larger;
+color: white;
+padding-top: 7px;
+padding-bottom: 7px;
+padding-left: 100px;
+padding-right: 100px;
+background-color: rgb(0, 204, 255);
+display: block;
+}
+button:hover{
+    background-color: orange;
+    color: black;
+}
+button:active{
+    color: red;
+}
+footer{
+    position: absolute;
+    top: 155%;
+    left: 45%;
+    font-weight: bold;
+    color:black;
+     }

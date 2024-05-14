@@ -1,0 +1,35 @@
+body{
+    background-image:url("Sweater/background/download\ \(4\).jfif");
+ width: 100%;
+
+}
+
+article{
+    padding-top: 200px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    letter-spacing: 1px;
+}
+article::first-letter{
+    font-weight: bold;
+    color: orange;
+    font-size: xx-large;
+}
+article #Hierarchy{
+color: orangered;
+}
+footer{
+    float: inline-end;
+    width: 100%;
+                   }  
+  
+  footer #address{ 
+    color: black;
+    font-weight: bold;
+    }
+#Copyright{
+    color: black;
+    float: inline-end;
+    font-weight: bold;
+          }

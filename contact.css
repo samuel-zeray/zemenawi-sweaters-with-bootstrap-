@@ -1,0 +1,62 @@
+body{
+    background-image: url("Sweater/background/11_28.jpg");
+    background-repeat: no-repeat;
+    }
+    
+    .contact{
+        background: transparent;
+        border: 1px solid white;
+        box-shadow: 1px 2px 1px 2px black;
+        border-radius: 20px;
+        width: 80%;
+      
+    }
+    .contact p{
+        color: black;
+        text-align: center;
+        font-size: large;
+        padding-top: 50px;
+        font-family:'Times New Roman', Times, serif;
+        font-weight: bolder;
+    }
+    address{
+        text-align: center;
+        color: white;
+        padding-top: 5px;
+    }
+    address a{
+        color: orange;
+    }
+    address a:hover{
+        color: black;
+        text-decoration: underline;
+    }
+    .imgs{
+    text-align: center;
+    }
+    .imgs img:hover{
+        width:100px;
+    }
+    .imgs ul{
+        list-style: none;
+    }
+    .imgs li{
+        margin-left: 20px;
+        display: inline-block;
+    }
+
+    footer{
+        float: inline-end;
+        width: 100%;
+                       }  
+      
+      footer #address{ 
+        color: black;
+        font-weight: bold;
+        }
+    #Copyright{
+        color: black;
+        float: inline-end;
+        font-weight: bold;
+              }
+  
